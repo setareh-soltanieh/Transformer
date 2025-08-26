@@ -125,6 +125,17 @@ class MultiHeadAttention(nn.Module):
         x = self.w_o(x)
         return x
 
+class ResidualConnection(nn.Module):
+
+    def __init__(self, dropout: float):
+        super().__init__()
+        self.dropout = nn.Dropout(dropout)
+        self.norm = LayerNormalization()
+
+    def forward(self, x, sublayer):
+        # In the paper they first have the sublayer module and then they apply the add and norm but in many
+        # cases like here we do it in this way
+        return x + self.dropout(sublayer(self.norm(x)))
 
 
 
