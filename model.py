@@ -43,3 +43,18 @@ class PositionalEncoding(nn.Module):
         return self.dropout(x)
 
 
+    class LayerNormalization(nn.Module):
+
+        def __init__(self, eps: float = 1e-6):
+            super().__init__()
+            self.eps = eps
+            # in this module we are normalizing each sentence, we will center the data around the mean of 0 and std of 1
+            # but because this is too restrictive, we use two learneable paramters alpha and bias to this model
+            self.alpha = nn.Parameter(torch.ones(1)) # Multiplied
+            self.bias = nn.Parameter(torch.zeros(0)) # Added
+
+        def __format__(self, x):
+            mean = x.mean(dim=1, keepdim=True)
+            std = x.std(dim=1, keepdim=True)
+            return self.alpha * (x - mean) / (std + self.eps) + self.bias
+
