@@ -92,7 +92,7 @@ class MultiHeadAttention(nn.Module):
         self.dropout = nn.Dropout(dropout)
 
     @staticmethod
-    def attention(self, query, key, value, mask, dropout: nn.Dropout):
+    def attention(query, key, value, mask, dropout: nn.Dropout):
         d_k = query.shape[-1]
 
         # (Batch, h, Seq_len, d_k) --> (Bacth, h, Seq_len, Seq_len)
@@ -120,7 +120,7 @@ class MultiHeadAttention(nn.Module):
         x, self.attention_scores = MultiHeadAttention.attention(query, key, value, mask, self.dropout)
 
         # (Batch, h, Seq_len, d_k) --> (Batch, Seq_len, h, d_k) --> (Batch, Seq_len, d_model)
-        x = s.transpose(1, 2).contiguous().view(x.shape[0], x.shape[1], self.h * self.d_k)
+        x = x.transpose(1, 2).contiguous().view(x.shape[0], x.shape[1], self.h * self.d_k)
 
         x = self.w_o(x)
         return x
