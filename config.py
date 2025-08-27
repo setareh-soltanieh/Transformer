@@ -11,7 +11,7 @@ def get_config():
         "lang_tgt": "fr",
         "model_folder": "weights",
         "model_basename": "tmodel_",
-        "prelod": None,
+        "preload": None,
         "tokenizer_file": "tokenizer_{0}.json",
         "experiment_name": "runs/tmodel"
     }
