@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3cb0562-48ed-478e-be2b-9e84aa2a9436" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321244.StarAsus.3152.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321267.StarAsus.31544.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321307.StarAsus.14116.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321346.StarAsus.30508.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321470.StarAsus.10552.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321531.StarAsus.13716.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756322151.StarAsus.34380.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756322680.StarAsus.26152.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756322748.StarAsus.15316.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323071.StarAsus.36264.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323190.StarAsus.11272.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323528.StarAsus.6024.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323871.StarAsus.19032.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323948.StarAsus.13944.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323995.StarAsus.17536.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756324075.StarAsus.30864.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756324112.StarAsus.37064.0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756324197.StarAsus.14492.0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +54,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.model.executor": "Run",
+    "Python tests.Doctests in module.executor": "Run",
+    "Python.model.executor": "Debug",
     "Python.train.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
@@ -73,6 +93,7 @@
       <workItem from="1756160039063" duration="970000" />
       <workItem from="1756222853501" duration="15142000" />
       <workItem from="1756310162041" duration="15673000" />
+      <workItem from="1756404111337" duration="6860000" />
     </task>
     <servers />
   </component>
@@ -91,7 +112,8 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Transformer$model.coverage" NAME="model Coverage Results" MODIFIED="1756321220032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Transformer$train.coverage" NAME="train Coverage Results" MODIFIED="1756324161199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Transformer$model.coverage" NAME="model Coverage Results" MODIFIED="1756409231094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Transformer$Doctests_in_module.coverage" NAME="Doctests in module Coverage Results" MODIFIED="1756409611397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/anaconda3/envs/ObjectDetection/Lib/site-packages/torch/nn/modules" />
+    <SUITE FILE_PATH="coverage/Transformer$train.coverage" NAME="train Coverage Results" MODIFIED="1756410359886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
