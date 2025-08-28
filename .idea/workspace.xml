@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3cb0562-48ed-478e-be2b-9e84aa2a9436" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321244.StarAsus.3152.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321267.StarAsus.31544.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321307.StarAsus.14116.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321346.StarAsus.30508.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321470.StarAsus.10552.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756321531.StarAsus.13716.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756322151.StarAsus.34380.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756322680.StarAsus.26152.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756322748.StarAsus.15316.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323071.StarAsus.36264.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323190.StarAsus.11272.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323528.StarAsus.6024.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323871.StarAsus.19032.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323948.StarAsus.13944.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756323995.StarAsus.17536.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756324075.StarAsus.30864.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756324112.StarAsus.37064.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runs/tmodel/events.out.tfevents.1756324197.StarAsus.14492.0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +73,7 @@
       <workItem from="1756160039063" duration="970000" />
       <workItem from="1756222853501" duration="15142000" />
       <workItem from="1756310162041" duration="15673000" />
-      <workItem from="1756404111337" duration="6860000" />
+      <workItem from="1756404111337" duration="7492000" />
     </task>
     <servers />
   </component>
