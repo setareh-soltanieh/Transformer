@@ -18,6 +18,26 @@ from pathlib import Path
 from tqdm import tqdm
 import warnings
 
+def run_validation(model, validation_ds, tokenizer_src, tokenizer_tgt, max_len, device, print_msg, global_state, writer, num_examples=2):
+    model.eval()
+    count = 0
+
+    source_text = []
+    expected = []
+    predicted = []
+
+    # Size of the control window (just use a different value)
+    console_width = 80
+
+    with torch.no_grad():
+        for batch in validation_ds:
+            count += 1
+            encoder_input = batch['encoder_input'].to(device)
+            encoder_mask = batch['encoder_mask'].to(device)
+
+            assert encoder_input.size(0) == 1, "Batch size must be 1 for validation"
+
+
 def get_all_sentences(ds, lang):
     for item in ds:
         yield item['translation'][lang]
