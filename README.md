@@ -13,4 +13,9 @@ Includes data preprocessing, tokenization, training, and evaluation.
 ```bash
 git clone https://github.com/setareh-soltanieh/Transformer.git
 cd Transformer
-pip install -r requirements.txt
+```
+
+## Usage
+
+- Google Colab: open and run Transformer.ipynb
+- Local machine: run the training script directly:
